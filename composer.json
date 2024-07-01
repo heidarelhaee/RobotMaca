@@ -1,20 +1,11 @@
 {
-    "name": "heidarelhaee/robotmaca",
-    "description": "Maca Robot Manager",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
+    "repositories": [
         {
-            "name": "Heidarelhaee",
-            "email": "mr.heidarelhaee@gmail.com"
+            "type": "vcs",
+            "url": "https://github.com/heidarelhaee/robotmaca"
         }
     ],
     "require": {
-        "php": ">=7.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "MacaRobot\\": "src/"
-        }
+        "heidarelhaee/robotmaca": "dev-main"
     }
 }
