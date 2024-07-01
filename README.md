@@ -26,3 +26,14 @@ Composer
 ```
 composer require heidarelhaee/macarobot
 ```
+
+Create a PHP file with the desired name and put the following code inside it...
+
+PHP
+```
+<?php
+require 'vendor/autoload.php';
+
+use macarobot\MacaRobot;
+?>
+```
