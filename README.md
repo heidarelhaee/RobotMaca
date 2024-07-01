@@ -21,3 +21,8 @@ congratulation! You made your own robot! Please do not give the token key that i
 # Getting started with robot management
 
 First of all, we must install the Maca Robot library!
+
+Composer
+```
+composer require heidarelhaee/macarobot
+```
