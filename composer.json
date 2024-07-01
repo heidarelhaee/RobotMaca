@@ -1,6 +1,6 @@
 {
     "name": "heidarelhaee/robotmaca",
-    "description": "Maca Robot Manager",
+    "description": "A PHP library for managing Maca Robot functionality",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -14,7 +14,9 @@
     },
     "autoload": {
         "psr-4": {
-            "macarobot\\": "/"
+            "MacaRobot\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
