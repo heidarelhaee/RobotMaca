@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0"و
+        "php": "^7.4 || ^8.0",
         "heidarelhaee/macarobot": "dev-main"
     },
     "autoload": {
