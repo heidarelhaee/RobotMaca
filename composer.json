@@ -10,8 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
-        "heidarelhaee/macarobot": "dev-main"
+        "php": "^7.4 || ^8.0"
     },
     "autoload": {
         "psr-4": {
