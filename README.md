@@ -49,6 +49,12 @@ require 'vendor/autoload.php';
 use MacaRobot\MacaRobot;
 $MacaRobot = new MacaRobot();
 
-echo $MacaRobot->sendMessageText();
+$keyrobot = "";//key robot
+
+$user = "";//The username of the person you want to send a message to...
+
+$text = "";//Message
+
+echo $MacaRobot->sendMessageText($keyrobot,$user,$text);
 ?>
 ```
