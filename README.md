@@ -77,6 +77,6 @@ $text = "";//Message
 
 $id = ""; //ID Message
 
-echo $MacaRobot->sendMessageReplyText($keyrobot,$user,$text,$id);
+echo $MacaRobot->sendMessageReplayText($keyrobot,$user,$text,$id);
 ?>
 ```
