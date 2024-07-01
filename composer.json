@@ -1,0 +1,20 @@
+{
+    "name": "heidarelhaee/macarobot",
+    "description": "Maca Robot Manager",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Heidarelhaee",
+            "email": "mr.heidarelhaee@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "macarobot\\": "src/"
+        }
+    }
+}
