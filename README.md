@@ -35,7 +35,7 @@ PHP
 require 'vendor/autoload.php';
 
 use MacaRobot\MacaRobot;
-$MacaRobot = MacaRobot();
+$MacaRobot = new MacaRobot();
 ?>
 ```
 
@@ -47,6 +47,6 @@ PHP
 require 'vendor/autoload.php';
 
 use MacaRobot\MacaRobot;
-$MacaRobot = MacaRobot();
+$MacaRobot = new MacaRobot();
 ?>
 ```
