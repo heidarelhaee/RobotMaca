@@ -58,3 +58,25 @@ $text = "";//Message
 echo $MacaRobot->sendMessageText($keyrobot,$user,$text);
 ?>
 ```
+
+Now let's answer a message
+
+PHP
+```
+<?php
+require 'vendor/autoload.php';
+
+use MacaRobot\MacaRobot;
+$MacaRobot = new MacaRobot();
+
+$keyrobot = "";//key robot
+
+$user = "";//The username of the person you want to send a message to...
+
+$text = "";//Message
+
+$id = ""; //ID Message
+
+echo $MacaRobot->sendMessageReplyText($keyrobot,$user,$text,$id);
+?>
+```
