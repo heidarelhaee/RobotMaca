@@ -34,6 +34,19 @@ PHP
 <?php
 require 'vendor/autoload.php';
 
-use macarobot\MacaRobot;
+use MacaRobot\MacaRobot;
+$MacaRobot = MacaRobot();
+?>
+```
+
+Now let's send a message to one of the people you want
+
+PHP
+```
+<?php
+require 'vendor/autoload.php';
+
+use MacaRobot\MacaRobot;
+$MacaRobot = MacaRobot();
 ?>
 ```
