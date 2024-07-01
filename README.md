@@ -80,3 +80,5 @@ $id = ""; //ID Message
 echo $MacaRobot->sendMessageReplayText($keyrobot,$user,$text,$id);
 ?>
 ```
+
+
