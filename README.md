@@ -48,5 +48,7 @@ require 'vendor/autoload.php';
 
 use MacaRobot\MacaRobot;
 $MacaRobot = new MacaRobot();
+
+echo $MacaRobot->sendMessageText();
 ?>
 ```
