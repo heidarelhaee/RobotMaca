@@ -3,6 +3,7 @@
     "description": "A PHP library for managing Maca Robot functionality",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/heidarelhaee/RobotMaca",
     "authors": [
         {
             "name": "Heidarelhaee",
@@ -16,6 +17,11 @@
        "psr-4": {
            "MacaRobot\\": "src/"
        }
+    },
+    "autoload-dev": {
+        "files": [
+            "./tests/index.php"
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true
