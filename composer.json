@@ -13,9 +13,9 @@
         "php": ">=7.4"
     },
     "autoload": {
-        "psr-4": {
-            "macarobot\\": "src/"
-        }
+       "psr-4": {
+           "MacaRobot\\": "src/"
+       }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
