@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "macarobot": "src/"
+            "robotmaca": "src/"
         }
     },
     "minimum-stability": "dev",
