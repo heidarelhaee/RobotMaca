@@ -1,7 +1,7 @@
 <?php
-use MacaRobot\MacaRobot;
+use RobotMaca\RobotMaca;
 
-$macarobot = new MacaRobot();
+$macarobot = new RobotMaca();
 
 $keyrobot = "";//key robot
 
