@@ -1,6 +1,6 @@
 <?php
-namespace MacaRobot;
-class MacaRobot{
+namespace RobotMaca;
+class RobotMaca{
     function sendMessageText($keyrobot,$user,$text){
         $url = 'https://Maca.avaw.ir/api/sendmessagetext.php';
         $data = array(
