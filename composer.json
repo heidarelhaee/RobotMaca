@@ -17,6 +17,16 @@
             "MacaRobot\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "MacaRobot\\": "test/"
+        }
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
     "minimum-stability": "dev",
     "prefer-stable": true
 }
