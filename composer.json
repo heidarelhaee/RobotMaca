@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MacaRobot\\": "src/"
+            "RobotMaca\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MacaRobot\\": "test/"
+            "RobotMaca\\": "test/"
         }
     },
 
